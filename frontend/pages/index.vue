@@ -1,7 +1,6 @@
 <template>
-
-  <firstHome/>
-  <secondHome/>
+<FirstHome/>
+<SecondHome/>
 </template>
 
 <style scoped>

@@ -19,7 +19,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  margin: 2em;
 }
 
 .homeLink,
@@ -40,14 +39,14 @@
     margin-right: 0;
 }
 
-/* Hover effect */
+.homeLink a:hover,
 .otherLinks a:hover {
-    color: #C0B283; /* Breeze */
+    color: #C0B283; 
 }
 
-
- .router-link-active {
-    color: #C0B283; /* Field */
+.homeLink a.router-link-exact-active,
+.otherLinks a.router-link-exact-active {
+    color: #C0B283; 
 }
 
 </style>
