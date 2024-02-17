@@ -1,7 +1,5 @@
 <template>
-  <div class="first">
-  <h1>traumi</h1>
-  </div>
+
 
 </template>
 

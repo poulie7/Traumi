@@ -1,8 +1,7 @@
 <template>
 
-<main>
-
-</main>
+  <firstHome/>
+  <secondHome/>
 </template>
 
 <style scoped>
@@ -13,7 +12,3 @@ h1 {
 }
 
 </style>
-<script setup lang="ts">
-import FirstHome from "~/components/firstHome.vue";
-import SecondHome from "~/components/secondHome.vue";
-</script>

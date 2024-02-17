@@ -1,7 +1,4 @@
 <template>
-    <main>
-        <template>
-    <main>
        <nav class="navigation">
             <div class="homeLink">
                 <NuxtLink to="/">home</NuxtLink>
@@ -12,17 +9,12 @@
                 <NuxtLink to="login" >login</NuxtLink>
             </div>
        </nav>
-    </main>
-</template>
-
-
-    </main>
 </template>
 
 <style scoped>
 
 .navigation {
-    background-color: #DCD0C0; /* Summer Sky */
+    background-color: #373737; /* Summer Sky */
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -37,7 +29,7 @@
 
 .homeLink a,
 .otherLinks a {
-    color: #C0B283; /* Warm Peach */
+    color: #F4F4F4; /* Warm Peach */
     text-decoration: none;
     margin-right: 20px;
 
@@ -50,15 +42,12 @@
 
 /* Hover effect */
 .otherLinks a:hover {
-    color: #F4F4F4; /* Breeze */
+    color: #C0B283; /* Breeze */
 }
 
 
-.homeLink router-link-active {
-    color: #F4F4F4; /* Field */
+ .router-link-active {
+    color: #C0B283; /* Field */
 }
-
-
-
 
 </style>

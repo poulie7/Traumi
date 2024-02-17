@@ -1,9 +1,6 @@
 <template>
-  <main>
-<NavBar/>
+  <NavBar/>
   <slot/>
-<Footer/>
-  </main>
 </template>
 
 <style scoped>

@@ -1,29 +1,16 @@
-    * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-        *:before,
-        *:after {
-            box-sizing: border-box;
-        }
+*:before,
+*:after {
+    box-sizing: border-box;
+}
 
-        html {
-            height: 100%;
-        }
+body {
+    min-height: 100vh;
+    background-color: #F4F4F4;
+}
 
-        body {
-            min-height: 100%;
-            position: relative;
-            background-color: #DCD0C0;
-        }
-
-        footer {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            padding: 10px;
-            background: #444;
-            color: #eee;
-        }
