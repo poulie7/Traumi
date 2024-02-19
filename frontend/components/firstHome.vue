@@ -12,8 +12,8 @@ h1 {
 .first {
   min-height: 100vh;
   display: flex;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 

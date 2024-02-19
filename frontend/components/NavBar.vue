@@ -28,11 +28,10 @@
 
 .homeLink a,
 .otherLinks a {
-    color: #F4F4F4; /* Warm Peach */
+    color: #F4F4F4; 
     text-decoration: none;
     margin-right: 20px;
-
-  font-size: x-large;
+    font-size: x-large;
 }
 
 .otherLinks a:last-child {
